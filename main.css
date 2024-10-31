@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter");
+
+/* ||RESET*/
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height:auto;
+}
+
+/*||VARIABLES*/
+:root{
+    --GREY-800: #171616;
+    --GREY-900: #000000;
+    --GREY-700: #272727;
+    --WHITE:#ffffff;
+    --GREEN:#a3ed03; 
+    
+    /*TYPOGRAPHY*/
+    --FF1:"Inter",serif;
+
+    /*MOBILE*/
+    --TEXT-PRESET-1: semi-bold 24/100% var(--FF1);
+    --TEXT-PRESET-2: regular 14/100% var(--FF1);
+    --TEXT-PRESET-2-bold: bold 14/100% var(--FF1);
+    
+    /*TABLET*/
+    /*DESKTOP*/
+
+}
+
+/*||UTILITY CLASSES*/
+.offscreen{
+    position:absolute;
+    left:-10000px;
+}
+
+
+/* ||MOBILE FIRST DESIGN*/
+body{
+    background-color: var(--GREY-900);
+    font-family: "Inter",serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    color:var(--WHITE)
+}
+.social-links__container{
+    width: 100%;
+    background-color: var(--GREY-800);
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 12px;
+    margin : 12px;
+
+}
