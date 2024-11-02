@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 /* ||RESET*/
 
@@ -105,5 +105,17 @@ figure,.social-links__wrapper{
     display: block;
     align-items: center;
     justify-items: center;
+   
 }
-
+.social-links{
+    background-color: var(--GREY-700);
+    border:none;
+    border-radius: 8px;
+    margin: 12px;
+    width: 376px;
+    height: 45px;   
+    text-align: center;
+    justify-items: center;
+    font-size: var(--TEXT-PRESET-2);
+   
+}
