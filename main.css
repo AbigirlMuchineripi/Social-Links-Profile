@@ -22,7 +22,7 @@ img{
     --GREEN:#a3ed03; 
     
     /*TYPOGRAPHY*/
-    --FF1:"Inter",serif;
+    --FF1:"Inter",sans-serif;
 
     /*MOBILE*/
     --TEXT-PRESET-1: semi-bold 24/100% var(--FF1);
@@ -44,7 +44,7 @@ img{
 /* ||MOBILE FIRST DESIGN*/
 body{
     background-color: var(--GREY-900);
-    font-family: "Inter",serif;
+    font-family: "Inter",sans-serif;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -52,11 +52,30 @@ body{
     color:var(--WHITE)
 }
 .social-links__container{
-    width: 100%;
-    background-color: var(--GREY-800);
-    padding-left: 12px;
-    padding-right: 12px;
+    width: 456px;
+    height: 1024px;
+    background-color: var(--GREY-800);   
     border-radius: 12px;
-    margin : 12px;
+    margin-left : 156px;
+    margin-left: 156px;
+    align-items: center;
+    background-color: red;
+    
+   
+   
+
+}
+.social-links__wrapper, .social-links__container{
+    margin: 206.5px 156px;   
+
+}
+.social-links__wrapper, .contents{
+    margin: 40px;
+    display: block;
+    justify-items: center;
+}
+.profile-picture{
+    align-items: center;
+    border-radius: 100%;
 
 }
