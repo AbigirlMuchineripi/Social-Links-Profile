@@ -58,12 +58,8 @@ body{
     border-radius: 12px;
     margin-left : 156px;
     margin-left: 156px;
-    align-items: center;
-    background-color: red;
-    
-   
-   
-
+    align-items: center;     
+  
 }
 .social-links__wrapper, .social-links__container{
     margin: 206.5px 156px;   
@@ -74,8 +70,40 @@ body{
     display: block;
     justify-items: center;
 }
-.profile-picture{
+figure, img{
     align-items: center;
+    border: 0px solid black;
     border-radius: 100%;
-
+    width:88px;
+    height: 88px;
 }
+figure,.social-links__wrapper{
+    margin-top: 4opx;
+}
+.info, figure{
+    margin:24px;
+}
+
+.location{
+    color:var(--GREEN);
+    font-size: var(--TEXT-PRESET-2);
+}
+.info{
+    
+    display: block;
+    justify-items: center;
+    text-align: center;
+}
+.description{
+    display: inline;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+  
+}
+.links{
+    display: block;
+    align-items: center;
+    justify-items: center;
+}
+
