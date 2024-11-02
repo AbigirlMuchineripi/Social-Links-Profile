@@ -52,8 +52,8 @@ body{
     color:var(--WHITE)
 }
 .social-links__container{
-    width: 456px;
-    height: 1024px;
+    width: 327px;
+    height: 579px;
     background-color: var(--GREY-800);   
     border-radius: 12px;
     margin-left : 156px;
@@ -112,7 +112,7 @@ figure,.social-links__wrapper{
     border:none;
     border-radius: 8px;
     margin: 12px;
-    width: 376px;
+    width: 279px;
     height: 45px;   
     text-align: center;
     justify-items: center;
