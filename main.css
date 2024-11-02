@@ -126,6 +126,13 @@ figure,.social-links__wrapper{
    
 }
 
+@media screen and (min-width:480px) {
+    .social-links:hover{
+        background-color:var(--GREY-700);
+    }
+    
+}
+
 /*||DESKTOP HOVER*/
 @media screen and (min-width:992px) {
     .social-links:hover{
