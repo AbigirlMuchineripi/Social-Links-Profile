@@ -127,8 +127,9 @@ figure,.social-links__wrapper{
 
 /*||DESKTOP HOVER*/
 @media screen and (min-width:992px) {
-    .social-links :hover{
+    .social-links:hover{
         background-color: var(--GREEN);
+        color: black;
     }
     
 }
