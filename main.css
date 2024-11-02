@@ -19,7 +19,7 @@ img{
     --GREY-900: #000000;
     --GREY-700: #272727;
     --WHITE:#ffffff;
-    --GREEN:#a3ed03; 
+    --GREEN:#CAFF2C; 
     
     /*TYPOGRAPHY*/
     --FF1:"Inter",sans-serif;
@@ -112,10 +112,22 @@ figure,.social-links__wrapper{
     border:none;
     border-radius: 8px;
     margin: 12px;
+    padding: 10px;
     width: 279px;
-    height: 45px;   
+    height: 45px;  
+    align-items: center;
     text-align: center;
     justify-items: center;
     font-size: var(--TEXT-PRESET-2);
+    position: relative;    
    
 }
+
+/*||DESKTOP HOVER*/
+@media screen and (min-width:992px) {
+    .social-links :hover{
+        background-color: var(--GREEN);
+    }
+    
+}
+
