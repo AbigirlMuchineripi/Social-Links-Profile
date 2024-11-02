@@ -129,6 +129,8 @@ figure,.social-links__wrapper{
 @media screen and (min-width:480px) {
     .social-links:hover{
         background-color:var(--GREY-700);
+        width: 375px;
+        height: 812px;
     }
     
 }
