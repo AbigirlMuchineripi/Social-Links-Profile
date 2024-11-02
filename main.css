@@ -62,7 +62,9 @@ body{
   
 }
 .social-links__wrapper, .social-links__container{
-    margin: 206.5px 156px;   
+    margin-left: 24px;
+    margin-right: 24px;
+    
 
 }
 .social-links__wrapper, .contents{
@@ -129,8 +131,7 @@ figure,.social-links__wrapper{
 @media screen and (min-width:480px) {
     .social-links:hover{
         background-color:var(--GREY-700);
-        width: 375px;
-        height: 812px;
+       
     }
     
 }
