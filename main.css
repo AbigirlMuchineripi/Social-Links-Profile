@@ -87,6 +87,7 @@ figure,.social-links__wrapper{
 .location{
     color:var(--GREEN);
     font-size: var(--TEXT-PRESET-2);
+    line-height: 150%;
 }
 .info{
     
