@@ -85,7 +85,7 @@ a:any-link{
   flex-flow:column;
   align-items:center;   
 }
-.profile-picture__avatar img{
+.profile-picture__avatar {
   width:88px;
   height:88px;
   border-radius:50%;
