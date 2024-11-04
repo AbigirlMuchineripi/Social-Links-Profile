@@ -66,13 +66,19 @@ h1{
     font-size: inherit;
     font-weight: normal;
 }
+a:any-link{
+    text-decoration: none;
+}
+
+/*|| CONTAINER*/
 .social-links__container{
-    width: 327px;
-    height: 579px;
+    max-width:  327px;
+    min-height: 579px;
+    padding: 1.5rem;
+    margin: 7.28rem 1.5rem;
     background-color: var(--GREY-800);   
     border-radius: 12px;
-    margin-left : 156px;
-    margin-left: 156px;
+   
     align-items: center;     
   
 }
