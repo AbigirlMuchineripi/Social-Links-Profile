@@ -146,22 +146,62 @@ a:any-link{
 @media screen and (min-width:768px){
   /* ||PROFILE CARD*/
   .social-profile__card{
+    max-width:456px;
+    min-height:611px;
+    padding:2.5rem;
+    margin:12.91rem 9.75rem;
+  }
+  /*||PROFILE CARD LINKS */
+  .card-link__Github{
+  padding: 0.75rem 10.22rem;
+  }
+  .card-link__Github{
+    padding: 0.75rem 10.22rem;
+  }
+  .card-link__FrontendMentor{
+    padding: 0.75rem 8.16rem;
+  }
+  .card-link__LinkedIn{
+    padding: 0.75rem 9.91rem;
+  }
+  .card-link__Twitter{
+    padding: 0.75rem 10.19rem;
+  }
+  .card-link__Instagram{
+    padding: 0.75rem 9.56rem;
+  }  
 }
-}
-@media screen and (min-width:768px) {
-    .social-links:hover{
-        background-color:var(--GREY-700);
-       
-    }
-    
-}
-
-/*||DESKTOP HOVER*/
+/* ||DESKTOP*/
 @media screen and (min-width:992px) {
-    .social-links:hover{
-        background-color: var(--GREEN);
-        color: black;
+  /*||PROFILE*/
+  .social-profile__card{
+    max-width:384px;
+    margin:10.91rem 33rem;    
+  }
+  /*||CARD-LINKS*/
+  .card-link__Github{
+    padding: 0.75rem 7.97rem;
+  }.card-link__FrontendMentor{
+    padding: 0.75rem 5.91rem;
+  }
+  .card-link__LinkedIn{
+    padding: 0.75rem 10.19rem;
+  }
+  .card-link__Twitter{
+    padding: 0.75rem 7.94rem;
+  }
+  .card-link__Instagram{
+    padding: 0.75rem 7.31rem;
+  }
+  /* LINK HOVER*/
+    .social-links{
+      ransittion:all 0.3s ease-in-out;      
     }
+  .social-links: hover,
+  .social-links:focus-visible{
+    background-color:var(--GREEN); 
+    color:var(--GREY-700);
+  }
     
 }
 
