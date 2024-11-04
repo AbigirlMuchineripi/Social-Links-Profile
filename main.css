@@ -78,8 +78,10 @@ a:any-link{
     margin: 7.28rem 1.5rem;
     background-color: var(--GREY-800);   
     border-radius: 12px;
-   
-    align-items: center;     
+    display:flex;
+    flex-flow: column;   
+    align-items: center; 
+    gap: 1.5rem;    
   
 }
 .social-links__wrapper, .social-links__container{
