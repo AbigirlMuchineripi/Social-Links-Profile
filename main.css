@@ -1,43 +1,47 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-/* ||RESET*/
-
-*{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
-}
-img{
-    display: block;
-    max-width: 100%;
-    height:auto;
+/* || RESET */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-/*||VARIABLES*/
-:root{
-    --GREY-800: #171616;
-    --GREY-900: #000000;
-    --GREY-700: #272727;
-    --WHITE:#ffffff;
-    --GREEN:#CAFF2C; 
-    
-    /*TYPOGRAPHY*/
-    --FF1:"Inter",sans-serif;
-
-    /*MOBILE*/
-    --TEXT-PRESET-1: semi-bold 24/100% var(--FF1);
-    --TEXT-PRESET-2: regular 14/100% var(--FF1);
-    --TEXT-PRESET-2-bold: bold 14/100% var(--FF1);
-    
-    /*TABLET*/
-    /*DESKTOP*/
-
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
-/*||UTILITY CLASSES*/
-.offscreen{
-    position:absolute;
-    left:-10000px;
+/* || VARIABLES */
+:root {
+  /* COLORS */
+  --GREY-700: #333;
+  --GREY-800: #1f1f1f;
+  --GREY-900: #141414;
+  --GREEN: #c4f82a;
+  --WHITE: #fff;
+
+  /* TYPOGRAPHY */
+  --FF: "Inter", sans-serif;
+
+  --TEXT-PRESET-1: 600 1.5rem/150% var(--FF);
+  --TEXT-PRESET-2: normal 0.875rem/150% var(--FF);
+  --TEXT-PRESET-2-BOLD: bold 0.875rem/150% var(--FF);
+}
+
+/* || UTILITY CLASSES */
+.offscreen {
+  position: absolute;
+  left: -10000px;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.center {
+  text-align: center;
 }
 
 
@@ -66,7 +70,7 @@ body{
     
 
 }
-.social-links__wrapper, .contents{
+.social-links__wrapper{
     margin: 40px;
     display: block;
     justify-items: center;
