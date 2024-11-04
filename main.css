@@ -23,8 +23,7 @@ img {
   --WHITE: #fff;
 
   /* TYPOGRAPHY */
-  --FF: "Inter", sans-serif;
-
+  --FF: "Inter, sans-serif";
   --TEXT-PRESET-1: 600 1.5rem/150% var(--FF);
   --TEXT-PRESET-2: normal 0.875rem/150% var(--FF);
   --TEXT-PRESET-2-BOLD: bold 0.875rem/150% var(--FF);
@@ -35,16 +34,12 @@ img {
   position: absolute;
   left: -10000px;
 }
-
 .nowrap {
   white-space: nowrap;
 }
-
 .center {
   text-align: center;
 }
-
-
 /* ||MOBILE FIRST DESIGN*/
 html{
     scroll-behavior: smooth;
@@ -70,8 +65,8 @@ a:any-link{
     text-decoration: none;
 }
 
-/*|| CONTAINER*/
-.social-links__container{
+/*|| CARD*/
+.social-links__card{
     max-width:  327px;
     min-height: 579px;
     padding: 1.5rem;
@@ -81,14 +76,15 @@ a:any-link{
     display:flex;
     flex-flow: column;   
     align-items: center; 
-    gap: 1.5rem;    
-  
+    gap: 1.5rem; 
 }
-.social-links__wrapper, .social-links__container{
-    margin: 206.5px 156px; 
-    
+/* || CARD HEADER*/
+.social-profile__header{
+  display:flex;
+  flex-flow:column;
+  align-items:center;   
+}
 
-}
 .social-links__wrapper{
     margin: 40px;
     display: block;
