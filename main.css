@@ -91,6 +91,7 @@ a:any-link{
   border-radius:50%;
   overflow:hidden;
   margin-bottom:1.5rem;
+  margin-top: 2.5rem;
 }  
 .profile-picture__avatar img{
   width:100%;
