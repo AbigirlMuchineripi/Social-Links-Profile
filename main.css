@@ -155,9 +155,7 @@ a:any-link{
   .card-link__Github{
   padding: 0.75rem 10.22rem;
   }
-  .card-link__Github{
-    padding: 0.75rem 10.22rem;
-  }
+ 
   .card-link__FrontendMentor{
     padding: 0.75rem 8.16rem;
   }
@@ -181,7 +179,8 @@ a:any-link{
   /*||CARD-LINKS*/
   .card-link__Github{
     padding: 0.75rem 7.97rem;
-  }.card-link__FrontendMentor{
+  }
+  .card-link__FrontendMentor{
     padding: 0.75rem 5.91rem;
   }
   .card-link__LinkedIn{
@@ -195,7 +194,7 @@ a:any-link{
   }
   /* LINK HOVER*/
     .social-links{
-      ransittion:all 0.3s ease-in-out;      
+      transition: all 0.3s ease-in-out;      
     }
   .social-links: hover,
   .social-links:focus-visible{
