@@ -10,49 +10,35 @@
     <link rel="stylesheet" href="main.css"> 
 </head>
 <body>
-    <article class="social-links__container">
-        <section class="social-links__wrapper">          
-                <section class="profile-picture">
+    <article class="social-profile__card">
+        <section class="social-profile__header">          
+                <div class="profile-picture">
                     <figure class="image">
                         <img src="./images/abymuc.png" alt="Profile Picture" width="432" height="432" loading="lazy">
-                        <figcaption class="offscreen">aby-muc</figcaption>
-                    
+                        <figcaption class="offscreen">aby-muc</figcaption>                    
                     </figure>
-                  
-                </section>
-                <div class="info">
-                    <h1>
-                        Aby Muc
-                    </h1>
-                    <p class="location">Chiredzi, Zimbabwe</p>
                 </div>
-                <div class="description">
-                    <p class="bio nowrap">"Frontend developer and avid reader."</p>
-                </div>
-
-                <section class="links">
-                    <section class="github-link">
-                        <a class="social-links">Github</a>
-                    </section>
-                    <section class="frontendmentor-link">
-                        <a class="social-links">Frontend Mentor</a>                
-                    </section>
-                    <section class="linkedin-link">
-                        <a class="social-links">LinkedIn</a>                
-                    </section>
-                    <section class="twitter-link">
-                        <a class="social-links">Twitter</a>                
-                    </section>
-                    <section class="instagram-link">
-                        <a class="social-links">Instagram</a>                
-                    </section>
-
-                </section>
-               
-            </section>
             
-           
-        </article>
-    
-</body>
+                <h1 class="social-profile__name>
+                    Aby Muc
+                </h1>
+                <p class="location">Chiredzi, Zimbabwe</p>               
+               
+                <p class="bio nowrap">
+                    <q>
+                        Frontend developer and avid reader.
+                    </q>
+                </p>
+        </section>    //header section ends.
+                
+
+                <section class="card-links">                   
+                        <a href="#" class="social-links nowrap center card-link__Github">Github</a>
+                        <a href="#" class="social-links nowrap center card-link__FrontendMentor">Frontend Mentor</a>
+                        <a href="#" class="social-links nowrap center card-link__LinkedIn">LinkedIn</a>
+                        <a href="#" class="social-links nowrap center card-link__Twitter">Twitter</a>
+                        <a href="#" class="social-links nowrap center card-link__Instagram">Instagram</a>
+                </section>           
+        </article>    
+     </body>
 </html>
