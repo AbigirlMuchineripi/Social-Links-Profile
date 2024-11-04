@@ -84,6 +84,36 @@ a:any-link{
   flex-flow:column;
   align-items:center;   
 }
+.profile-picture__avatar img{
+  width:88px;
+  height:88px;
+  border-radius:50%;
+  overflow:hidden;
+  margin-bottom:1.5rem;
+}  
+.profile-picture__avatar img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+.social-profile__name{
+  font:var(--TEXT-PRESET-1);
+  color:var(--WHITE);
+  margin-bottom:0.25rem;
+}
+.location{
+    color:var(--GREEN);
+    font-size: var(--TEXT-PRESET-2);
+    line-height: 150%;
+  margin-bottom:1.5rem;
+}
+.bio{
+  font:var(--TEXT-PRESET-2);
+  color:var(--WHITE);
+}
+  
+  
+
 
 .social-links__wrapper{
     margin: 40px;
@@ -104,11 +134,7 @@ figure,.social-links__wrapper{
     margin:24px;
 }
 
-.location{
-    color:var(--GREEN);
-    font-size: var(--TEXT-PRESET-2);
-    line-height: 150%;
-}
+
 .info{
     
     display: block;
