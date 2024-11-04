@@ -40,7 +40,8 @@ img {
 .center {
   text-align: center;
 }
-/* ||MOBILE FIRST DESIGN*/
+/* MOBILE FIRST DESIGN*/
+/* || GENERAL STYLES*/
 html{
     scroll-behavior: smooth;
     font-size: 16px;
@@ -48,12 +49,12 @@ html{
 body{
     min-width: 100%;
     max-height: 100vh;
+    overflow-x: hidden;
     background-color: var(--GREY-900);
     font-family: "Inter",sans-serif;
-    display:grid;  
-    overflow: hidden;
+    display:grid;      
     place-content: center;
-    color:var(--WHITE)
+    color:var(--WHITE);
 }
 h1{
     margin: 0;
@@ -184,7 +185,7 @@ a:any-link{
     padding: 0.75rem 5.91rem;
   }
   .card-link__LinkedIn{
-    padding: 0.75rem 10.19rem;
+    padding: 0.75rem 7.66rem;
   }
   .card-link__Twitter{
     padding: 0.75rem 7.94rem;
@@ -196,7 +197,7 @@ a:any-link{
     .social-links{
       transition: all 0.3s ease-in-out;      
     }
-  .social-links: hover,
+  .social-links:hover,
   .social-links:focus-visible{
     background-color:var(--GREEN); 
     color:var(--GREY-700);
