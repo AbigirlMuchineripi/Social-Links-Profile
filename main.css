@@ -46,15 +46,16 @@ html{
     scroll-behavior: smooth;
     font-size: 16px;
 }
-body{
-    min-width: 100%;
-    max-height: 100vh;
-    overflow-x: hidden;
-    background-color: var(--GREY-900);
-    font-family: "Inter",sans-serif;
-    display:grid;      
-    place-content: center;
-    color:var(--WHITE);
+body {
+  max-width: 100%; 
+  min-height: 100vh; 
+  overflow-x: hidden;
+  background-color: var(--GREY-900);
+  font-family: "Inter", sans-serif;
+  display: grid;
+  place-content: center;
+  color: var(--WHITE);
+}
 }
 h1{
     margin: 0;
