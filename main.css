@@ -23,7 +23,7 @@ img {
   --WHITE: #fff;
 
   /* TYPOGRAPHY */
-  --FF: "Inter, sans-serif";
+  --FF: "Inter", sans-serif;
   --TEXT-PRESET-1: 600 1.5rem/150% var(--FF);
   --TEXT-PRESET-2: normal 0.875rem/150% var(--FF);
   --TEXT-PRESET-2-BOLD: bold 0.875rem/150% var(--FF);
@@ -91,7 +91,6 @@ a:any-link{
   border-radius:50%;
   overflow:hidden;
   margin-bottom:1.5rem;
-  margin-top: 2.5rem;
 }  
 .profile-picture__avatar img{
   width:100%;
